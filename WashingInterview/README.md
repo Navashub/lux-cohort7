@@ -1,10 +1,10 @@
 # Washing Interview Dataset - Data Engineering Project
 
-## 📋 Project Overview
+## Project Overview
 
 This project is part of the **Lux Data Engineering Cohort 7** curriculum. It demonstrates data import, schema design, and SQL querying using a real-world manufacturing dataset from a washing facility. The dataset contains employee performance metrics including wages, days worked, and production output (perfected bottles) across three months.
 
-## 📊 Dataset Description
+## Dataset Description
 
 The **Washing Interview Dataset** captures operational metrics for employees working in different departments:
 
@@ -20,7 +20,7 @@ The **Washing Interview Dataset** captures operational metrics for employees wor
 - **Records:** 18 employees
 - **Departments:** Washing Night, Washing Day
 
-## 📁 Project Files
+## Project Files
 
 | File | Description |
 |------|-------------|
@@ -28,7 +28,7 @@ The **Washing Interview Dataset** captures operational metrics for employees wor
 | `washing_interview.sql` | SQL setup and import script for PostgreSQL |
 | `README.md` | Project documentation |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites:
 - PostgreSQL database server (v10 or higher)
@@ -67,7 +67,7 @@ The **Washing Interview Dataset** captures operational metrics for employees wor
    SELECT * FROM washing_interview.washing_interview_dataset_basic LIMIT 5;
    ```
 
-## 🔍 Data Quality Handling
+## Data Quality Handling
 
 The SQL script includes special handling for the CSV structure:
 
@@ -75,7 +75,7 @@ The SQL script includes special handling for the CSV structure:
 - **Type Conversion:** Data is imported as text in the staging table, then converted to appropriate types (INTEGER, NUMERIC) for analysis.
 - **Data Validation:** The script includes a WHERE clause to filter out non-numeric serial numbers.
 
-## 💡 Use Cases
+## Use Cases
 
 This dataset is ideal for practicing:
 - ✅ CSV data import and ETL workflows
@@ -86,7 +86,7 @@ This dataset is ideal for practicing:
 - ✅ Production efficiency metrics
 - ✅ Performance trend analysis over time
 
-## 📝 Sample Queries
+## Sample Queries
 
 After importing, try these queries:
 
@@ -111,7 +111,7 @@ FROM washing_interview.washing_interview_dataset_basic
 GROUP BY department;
 ```
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 Through this project, learners gain experience with:
 - PostgreSQL data import and schema management
@@ -120,7 +120,7 @@ Through this project, learners gain experience with:
 - SQL aggregation and analysis queries
 - Performance metrics and business intelligence
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 **Issue: "COPY failed" error**
 - Ensure the file path in the COPY statement matches your actual CSV location
@@ -136,16 +136,15 @@ Through this project, learners gain experience with:
 
 ---
 
-## 👤 Contact & Availability
+## Contact & Availability
 
-**Kipkemoi Herbert**
-- 📧 **Email:** kipkemoiherbert@gmail.com
+**Navas Herbert**
+- 📧 **Email:** navasherbert01@gmail.com
 - 📱 **Phone:** +254715623803
 
-### 💼 Open to Opportunities
+### Open to Opportunities
 I'm actively looking for **Data Engineering & Data Analytics roles**. I'm passionate about building efficient data pipelines, optimizing data workflows, and leveraging data for business insights. If you have an opportunity that aligns with my experience, feel free to reach out!
 
 ---
 
-*Last Updated: April 2026*  
 *Project: Lux Data Engineering Cohort 7*
