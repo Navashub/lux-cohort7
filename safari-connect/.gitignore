@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Duplicate CSV at project root (canonical copy in dataset/)
+/safari_connect_dirty.csv
