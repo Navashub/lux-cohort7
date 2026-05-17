@@ -5,3 +5,9 @@ __pycache__/
 
 # Duplicate CSV at project root (canonical copy in dataset/)
 /safari_connect_dirty.csv
+
+# Instructor/student Word guides (keep locally, not in repo)
+SafariConnect_Project_Brief.docx
+SafariConnect_DDL_Setup_Guide.docx
+SafariConnect_Day2_Analysis_Guide.docx
+SafariConnect_Instructor_AnswerKey.docx
